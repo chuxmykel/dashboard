@@ -1,0 +1,127 @@
+header > h1 {
+  color: #172b4d;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.toggle-switch > p {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.on {
+  background: #67c462 !important;
+}
+
+.profile-img {
+  height: 45px;
+  width: 45px;
+  background: #d8d8d8;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding-bottom: 5px;
+}
+
+.ml7vw {
+  margin-left: 1vw !important;
+}
+
+.mr7vw {
+  margin-right: 1vw !important;
+}
+
+.title {
+  display: none;
+}
+
+.controls {
+  flex: 5;
+  justify-content: space-around !important;
+}
+
+.hamburger {
+  flex: 7;
+}
+
+
+.user {
+  display: none !important;
+}
+
+.notification > span {
+  font-size: .75rem;
+}
+
+.notification {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  right: -7px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+.username {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@media (min-width: 48.1rem) {
+  .title {
+    flex: 5;
+  }
+
+  .controls {
+    justify-content: space-between !important;
+  }
+
+  .user {
+    display: flex !important;
+  }
+
+  .hamburger {
+    display: none !important;
+  }
+}
+
+@media (min-width: 64rem) {
+  .ml7vw {
+    margin-left: 2vw !important;
+  }
+  
+  .mr7vw {
+    margin-right: 2vw !important;
+  }
+
+  .title {
+    display: flex;
+    flex: 3;
+  }
+  
+  .controls {
+    flex: 6;
+  }
+}
+
+@media (min-width: 76.5rem) {
+  .ml7vw {
+    margin-left: 7vw !important;
+  }
+  
+  .mr7vw {
+    margin-right: 7vw !important;
+  }
+  .title {
+    flex: 7;
+  }
+  
+  .controls {
+    flex: 10;
+  }
+}

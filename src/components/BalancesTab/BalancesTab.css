@@ -1,0 +1,56 @@
+.balance-table {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 2px solid #e9ebeead;
+}
+
+tbody > tr:last-child {
+  border-bottom: none;
+}
+
+tbody > tr:nth-child(even) {
+  background: #f9f9fa;
+}
+
+.balance-table > tbody > tr {
+  color: #42526e;
+  min-height: 109px;
+}
+
+th {
+  color: #768295;
+  font-weight: 500;
+  font-size: 1.4rem;
+  justify-content: left;
+}
+
+.col {
+  flex: 1;
+}
+
+.main-amt {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.sub-amt {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #7a8496;
+}
+
+.currency-icon > img {
+  width: 50px;
+  height: 50px;
+}
+
+.currency-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+}

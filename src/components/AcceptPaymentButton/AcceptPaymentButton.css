@@ -1,0 +1,20 @@
+.accept-btn {
+  border: 1px solid #cce5c8;
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  background: #e4f0e1;
+  color: #80cc7b;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.17);
+}
+
+.accept-btn,
+.accept-btn > * {
+  cursor: pointer;
+}
+
+@media (min-width: 40rem) {
+  .accept-btn {
+    /* width: 80%; */
+  }
+}

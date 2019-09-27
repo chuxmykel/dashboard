@@ -1,0 +1,39 @@
+.menu-item{
+  width: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.label {
+  font-size: 1.2em;
+}
+
+.icon-container {
+  width: 24px;
+  margin-right: 20px;
+}
+
+p {
+  padding-bottom: 3px;
+}
+
+.menu-item > span:hover {
+  color: green;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.menu-item > span {
+  width: 50%;
+}
+
+.active-tab {
+  color: green;
+  font-weight: 700;
+}

@@ -1,0 +1,38 @@
+.tab {
+  width: 100vw;
+  height: 100vh;
+}
+
+.inactive {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.tab-content {
+  height: calc(100vh - 70px);
+}
+
+@media (min-width: 48.1rem) {
+  .tab {
+    transform: translateX(40vw);
+    width: 60vw;
+  }
+}
+
+@media (min-width: 64rem) {
+  .tab {
+    transform: translateX(30vw);
+    width: 70vw;
+  }
+}
+
+@media (min-width: 76.5rem) {
+  .tab {
+    width: 76vw;
+    transform: translateX(24vw);
+  }
+}
+
