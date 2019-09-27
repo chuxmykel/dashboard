@@ -41,7 +41,7 @@ class App extends Component {
         />
         <GenericTab
           toggleSideBar={this.toggleSideBar}
-          active={activeTab !== ('transfers' || 'balances')}
+          active={activeTab !== 'transfers' && activeTab !== 'balances'}
           title={title}
         />
       </div>
