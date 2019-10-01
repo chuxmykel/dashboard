@@ -1,4 +1,3 @@
-![Banka Logo](https://i.ibb.co/bNckPNw/Screenshot-2019-08-27-at-00-18-00.png)
 # dashboard
 > A Simple dashboard built with React.js
 
