@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Banka Logo](https://i.ibb.co/bNckPNw/Screenshot-2019-08-27-at-00-18-00.png)
+# dashboard
+> A Simple dashboard built with React.js
 
-## Available Scripts
+* [Technologies](#technologies)
+* [Features](#features)
+* [Getting Started](#getting-started)
+  * [Installation](#installing)
+  * [Developing](#developing)
+  * [Licensing](#licensing)
 
-In the project directory, you can run:
+### UI
+The UI is hosted at [https://react-banka.herokuapp.com/](https://react-banka.herokuapp.com/)
 
-### `npm start`
+## Technologies
+---
+- [NodeJs](https://https://nodejs.org) - JavaScript runtime built on Chrome's V8 JavaScript engine
+- [ReactJs](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Express](https://expressjs.com) - Fast, unopinionated, minimalist web framework for Node.js
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Supporting Packages
+#### Linter
+- [ESlint](https://eslint.org) - Linter Tool
+#### Compiler
+- [Babel](https://babeljs.io) - Compiler for Next Generation Javascript
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Getting Started
+---
+### Installing
 
-### `npm test`
+To run this application, you need to have Node.js, and git(to clone the repo) installed. Then follow the instructions to get
+it up and running
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- clone the repo using 
+```shell
+~> git clone https://github.com/chuxmykel/dashboard.git
+```
+- run ``` npm install --prod``` to install dependencies
+- create a .env file from the .env.example file and fill in the necessary environment variables
+- run ``` npm run build ``` to build the project and then run ``` npm start ``` to start the server
+- now access the server on the localhost port 3000 (or whatever port you specified in your `.env` file) i.e ``` localhost:3000 or 127.0.0.1:3000 ```
 
-### `npm run build`
+Now the server will go live and listen for requests
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Developing
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+To develop the app further, a few handy tools have been put in place such as nodemon and some other dev dependencies.
+Access them by starting the server using ```npm run dev```. But before using the command, make sure to follow the steps below
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell
+git clone https://github.com/chuxmykel/dashboard.git
+cd dashboard/
+npm install
+npm run dev
+```
 
-### `npm run eject`
+### Building
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The app is written in ES6+ and wired to run ES5 transpiled code in production. To transpile any changes to ES5 run the script shown below
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```shell
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Babel then transpiles your ES6+ files to ES5 for environment compatibility
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Licensing
 
-## Learn More
+Copyright &copy; 2019, Ngwobia, Chukwudi M.
+The code in this project is licensed under [ISC LICENSE](https://github.com/chuxmykel/dashboard/blob/develop/LICENSE)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
