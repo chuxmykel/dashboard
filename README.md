@@ -10,7 +10,7 @@
   * [Licensing](#licensing)
 
 ### UI
-The UI is hosted at [https://react-banka.herokuapp.com/](https://react-banka.herokuapp.com/)
+The UI is hosted at [https://busha-react-dashboard.netlify.com](https://busha-react-dashboard.netlify.com)
 
 ## Technologies
 ---
